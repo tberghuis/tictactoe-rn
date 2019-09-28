@@ -1,0 +1,40 @@
+{
+  "name": "tictactoe-rn",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "react-native start",
+    "start:9000": "react-native start --port 9000",
+    "android": "react-native run-android",
+    "emulator": "emulator -avd Pixel_2_API_28",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.6.1",
+    "react": "16.8.6",
+    "react-native": "0.60.5",
+    "react-native-elements": "^1.2.1",
+    "react-native-gesture-handler": "^1.4.1",
+    "react-native-reanimated": "^1.2.0",
+    "react-native-screens": "^1.0.0-alpha.23",
+    "react-native-vector-icons": "^6.6.0",
+    "react-navigation": "^4.0.6",
+    "react-navigation-stack": "^1.8.0",
+    "rxjs": "^6.5.3",
+    "socket.io-client": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.6.0",
+    "@babel/runtime": "7.6.0",
+    "@react-native-community/eslint-config": "0.0.3",
+    "babel-jest": "24.9.0",
+    "eslint": "6.4.0",
+    "jest": "24.9.0",
+    "metro-react-native-babel-preset": "0.54.1",
+    "react-test-renderer": "16.8.6"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

@@ -1,6 +1,5 @@
 # multiplayer tic-tac-toe game
 
-TODO GIF here
 <kbd>
   <img src="https://raw.githubusercontent.com/tberghuis/tictactoe-rn/master/screencast.gif" width="500" >
 </kbd>
